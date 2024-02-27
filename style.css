@@ -13,12 +13,12 @@
 
 /* Estilo al pasar el mouse */
 .btn:hover {
-  background-color: #45a049;
+  background-color: blue;
 }
 
 /* Estilo al presionar el botón */
 .btn:active {
-  background-color: #3e8e41;
+  background-color: red;
 }
 
 /* Estilo del popup */
