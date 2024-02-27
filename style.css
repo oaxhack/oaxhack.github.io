@@ -1,3 +1,52 @@
+/* Estilo del botón */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo al pasar el mouse */
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Estilo al presionar el botón */
+.btn:active {
+  background-color: #3e8e41;
+}
+
+/* Estilo del popup */
+.popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del contenido del popup */
+.popup-content {
+  text-align: center;
+}
+
+/* Estilo del botón de cerrar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 #x1 {
   background: #FF3B30;
 }
