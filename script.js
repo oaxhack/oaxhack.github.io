@@ -1,9 +1,3 @@
-/*
- * Cirulcar Calendar Display.js
- * Matthew Juggins
- * Change log:
- * 		25/09/16 - Quick fix to day of the week
- */
 
 $(function() {
 
